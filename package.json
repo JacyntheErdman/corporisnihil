@@ -1,0 +1,52 @@
+{
+  "name": "corporisnihil",
+  "version": "1.0.0",
+  "description": "A MetaMask compatible keyring, for D'CENT hardware wallets",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "yarn lint && mocha",
+    "lint": "./node_modules/.bin/eslint . --ext .js",
+    "lint:fix": "./node_modules/.bin/eslint --fix . --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JacyntheErdman/corporisnihil.git"
+  },
+  "keywords": [
+    "ethereum",
+    "keyring",
+    "sit",
+    "D'CENT Hardware wallet",
+    "quis"
+  ],
+  "author": "JaunitaSchaefer",
+  "license": "ISC",
+  "resolutions": {
+    "mocha/mkdirp": "^0.5.1"
+  },
+  "dependencies": {
+    "@ethereumjs/tx": "3.2.1",
+    "ethereumjs-util": "7.0.9",
+    "dcent-web-connector": "^0.11.2"
+  },
+  "devDependencies": {
+    "@lavamoat/allow-scripts": "^1.0.6",
+    "assert": "^1.4.1",
+    "babel-eslint": "^8.0.0",
+    "babel-runtime": "^6.26.0",
+    "chai": "^4.1.2",
+    "chai-spies": "^1.0.0",
+    "eslint": "^5.0.0",
+    "eslint-plugin-chai": "0.0.1",
+    "eslint-plugin-json": "^1.2.0",
+    "eslint-plugin-mocha": "^5.0.0",
+    "ethereumjs-tx": "^1.3.4",
+    "mocha": "^5.0.4"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
